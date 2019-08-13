@@ -1,7 +1,7 @@
 
 
-<% @users.each do |user| %>
-  <p><% user.name %></p>
+<% if current_user %>
+  <%= link_to('Log out', '/users/new') %>
 <% end %>
 
 <h1> Welcome <%= @user.name %>!</h1>

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'application/current_user'
+
+  get 'application/authenticate_user'
+
   get 'posts/create'
 
   get 'posts/index'

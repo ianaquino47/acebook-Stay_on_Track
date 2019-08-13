@@ -1,2 +1,9 @@
-<h1>Sessions#new</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
+<% if current_user %>
+  <%= link_to('Log out', '/users/new') %>
+<% end %>
+
+<%= form_tag users_url, method: :post do %>
+  <%= text_field_tag :username, nil, class: 'input', placeholder: 'Username'%>
+  <%= password_field_tag :password, nil, class: 'input', placeholder: 'Password' %>
+  <%= submit_tag 'Submit' %>
+<% end %>
