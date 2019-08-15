@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-User.create(name: 'Kaja', username: "KP", email: "kaja@hotmail.com", password: "123")
+User.create(name: 'Kaja', username: "KP", email: "kaja@hotmail.com", password_digest: "123")
 Post.create(user_id: 1, message: "this is a test post")
