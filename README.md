@@ -1,13 +1,13 @@
-# AceBook - Stay on Track 
+# AceBook - [Stay on Track](http://stay-on-track.herokuapp.com/) 
 
 
-## Quickstart
+## Quickstart :runner:
 
 In order to set it up on your own computer:
 
-_Fork and clone this repository_
+First, fork and/or clone this repository using ```git clone```.
 
-Then:
+Then, run these commands:
 
 ```bash
 > bundle install
@@ -17,3 +17,10 @@ Then:
 > bundle exec rspec # Run the tests to ensure it works
 > bin/rails server # Start the server at localhost:3000
 ```
+
+## Teamwork :clap::wave:
+### Planning Session
+### StandUp
+### Retro
+### Trello 
+https://trello.com/b/RWacFYZu/acebook
