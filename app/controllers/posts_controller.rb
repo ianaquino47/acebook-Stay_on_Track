@@ -17,7 +17,7 @@ class PostsController < ApplicationController
     if !session[:user_id]
       redirect_to '/login'
     end
-   end
+  end
 
   def show
 
