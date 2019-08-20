@@ -19,8 +19,8 @@ Then, run these commands:
 ```
 
 ## Teamwork :clap::wave:
-### Planning Session
-### StandUp
-### Retro
+### Planning Session :chart_with_upwards_trend:
+### StandUp :mega:
+### Retro :clipboard:
 ### Trello 
 https://trello.com/b/RWacFYZu/acebook
