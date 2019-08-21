@@ -38,8 +38,8 @@ To start the server (http://localhost:3000/)
 <img width="590" alt="User Stories" src="https://user-images.githubusercontent.com/42152431/63437434-70af9c80-c422-11e9-801d-b11c5e3a7cee.png">
 
 ### StandUps :mega:
-- 10:30: StandUp session
-- 14:30: StandUp session
+- 10:30 - StandUp session
+- 14:30 - StandUp session
 
 ### Retro :clipboard:
 ## Instagram :camera:
