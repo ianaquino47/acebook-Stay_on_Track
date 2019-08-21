@@ -33,6 +33,10 @@ To start the server (http://localhost:3000/)
 <img width="477" alt="Screenshot 2019-08-21 at 12 19 27" src="https://user-images.githubusercontent.com/42152431/63427925-30462380-c40e-11e9-992a-dea5d6bc9740.png">
 
 #### Brainstorming 🧠
+<img width="572" alt="blockers" src="https://user-images.githubusercontent.com/42152431/63437423-6f7e6f80-c422-11e9-9cf7-e2896fdca78b.png">
+<img width="504" alt="functionality" src="https://user-images.githubusercontent.com/42152431/63437425-6f7e6f80-c422-11e9-90de-1143fc078b25.png">
+<img width="590" alt="User Stories" src="https://user-images.githubusercontent.com/42152431/63437434-70af9c80-c422-11e9-801d-b11c5e3a7cee.png">
+
 ### StandUp :mega:
 ### Retro :clipboard:
 ## Instagram :camera:
