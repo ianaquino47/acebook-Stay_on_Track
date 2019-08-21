@@ -24,6 +24,7 @@
   <%if session[:user_id] %>
     <%= link_to new_post_path, id:'New-post', class: "btn  btn-info btn-lg btn-block" do %>
     New post
+    <% session[:target_user] = nil %>
   <%end%>
 <% end %>
 </div>
@@ -33,7 +34,7 @@
   <div class="row center posts-row">
     <h1><%= link_to simple_format(post.message), post_path(post) %></h1>
     <div class="posts-div">
-      <b><%= link_to User.find(post.user_id).username%>
+      <b><%= link_to User.find(post.user_id).username, wall_path(post.user_id)%>
       </b>
       <p><%= post.created_at.strftime("%b %e %Y %H:%M")%></p>
       <% if (post.created_at - 10.minutes.ago) > 0 %>
