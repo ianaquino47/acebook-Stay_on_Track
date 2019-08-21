@@ -14,7 +14,7 @@ Then, run these commands to install the gems and create databases:
 > bin/rails db:migrate
 ```
 
-To run test:
+To run the test:
 ```bash
 > bundle exec rspec # Run the tests to ensure it works
 ```
@@ -22,9 +22,10 @@ To start the server (http://localhost:3000/)
 ```bash
 > rails s
 ```
-
+## Functionality of the website
 ## Teamwork :clap::wave:
 ### Planning Session :chart_with_upwards_trend:
+#### Brainstorming 🧠
 ### StandUp :mega:
 ### Retro :clipboard:
 ### Trello 
