@@ -13,7 +13,7 @@ class PostsController < ApplicationController
   end
 
   def index
-    @posts = Post.all
+    @posts = Post.all.with_attached_images
     if !session[:user_id]
       redirect_to '/login'
     end
