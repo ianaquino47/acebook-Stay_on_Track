@@ -41,7 +41,7 @@
 
 <div class="center top post-stories">
 <% @posts.reverse.each do |post| %>
-  <%if post.target_user.to_i == @user.id || @user.id == params[:id]%>
+  <%if post.target_user.to_i == @user.id  || (post.user_id == @user.id && post.target_user == nil)%>
     <div class="row center posts-row">
       <h1><%= link_to simple_format(post.message), post_path(post) %></h1>
       <div class="posts-div">
