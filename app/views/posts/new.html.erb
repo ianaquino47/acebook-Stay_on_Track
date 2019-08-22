@@ -1,8 +1,7 @@
 
-<div class="card message-card">
+<div class="card center top message-card">
 <%= form_with model: @post, local: true do |form| %>
 <%= form.text_area :message, placeholder: "Message" %><br><br>
-<%= form.label "Image" %>
 <%= form.file_field :image %><br>
 <%= form.submit "Submit" %>
 <% end %>
