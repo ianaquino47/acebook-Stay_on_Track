@@ -21,7 +21,7 @@ class PostsController < ApplicationController
    end
 
   def show
-@posts =Post.all
+    @posts =Post.all
   end
 
   def edit

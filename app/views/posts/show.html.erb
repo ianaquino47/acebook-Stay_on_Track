@@ -1,9 +1,12 @@
 <div>
   <h1>
 <%=simple_format(@post.message) %>
-<%= image_tag(@post.image) %>
   <h1>
 </div>
+
+<body>
+  <%= image_tag(@post.image) %>
+</body>
 
 <div class="card comments">
   <div class = "container">
