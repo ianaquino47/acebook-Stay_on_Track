@@ -9,14 +9,19 @@ class PostsController < ApplicationController
 
   def create
     @user = User.find(session[:user_id])
-    # @target_user
-    p "HERERERERERERERERERRERERRERE"
+    @post = @user.posts.create(post_params)
+    p "YOO!!!!!!!!!"
     p session[:target_user]
-    p @post = @user.posts.create(post_params)
+    p session[:last_wall]
+    if session[:target_user]
+      @post.update(target_user: session[:target_user])
+      redirect_to wall_path(session[:target_user].to_i)
+    elsif !session[:target_user] && session[:last_wall].to_i == session[:user_id]
 
-    p @post.update(target_user: session[:target_user])
-    p @post
-    redirect_to posts_url
+      redirect_to wall_path(session[:user_id])
+    else
+      redirect_to '/'
+    end
   end
 
   def index

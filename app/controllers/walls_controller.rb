@@ -4,6 +4,7 @@ class WallsController < ApplicationController
 
 
   def show
+    session[:last_wall] = params[:id]
     if params[:id]
       @user = User.find(params[:id])
     end
