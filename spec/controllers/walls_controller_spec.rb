@@ -2,19 +2,21 @@ require 'rails_helper'
 
 RSpec.describe WallsController, type: :controller do
 
-  describe "GET #index" do
-    it "returns http success" do
-      get :index
-      expect(response).to have_http_status(:success)
-    end
-  end
-
-  describe "GET #show" do
-    it "returns http success" do
-      get :show
-      expect(response).to have_http_status(:success)
-    end
-  end
+  # feature "GET #index" do
+  #   it "returns http success" do
+  #     signup
+  #     get :index
+  #     expect(response).to have_http_status(:success)
+  #   end
+  # end
+  #
+  # feature "GET #show" do
+  #   it "returns http success" do
+  #     signup
+  #     get :show
+  #     expect(response).to have_http_status(:success)
+  #   end
+  # end
 
   describe "GET #create" do
     it "returns http success" do
