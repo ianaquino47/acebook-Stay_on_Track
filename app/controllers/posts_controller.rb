@@ -9,18 +9,19 @@ class PostsController < ApplicationController
   def create
     @user = User.find(session[:user_id])
     @post = @user.posts.create(post_params)
+
     redirect_to posts_url
   end
 
   def index
-    @posts = Post.all.with_attached_images
+    @posts = Post.all
     if !session[:user_id]
       redirect_to '/login'
     end
    end
 
   def show
-
+@posts =Post.all
   end
 
   def edit
@@ -34,6 +35,7 @@ class PostsController < ApplicationController
   def update
     @user = User.find(session[:user_id])
     @post.update(post_params) if @user.id == @post.user_id
+    @post.image.attach(params[:message][:image])
     redirect_to posts_url
   end
 
@@ -50,7 +52,7 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:message)
+    params.require(:post).permit(:message, :image)
   end
 
   def current_post
