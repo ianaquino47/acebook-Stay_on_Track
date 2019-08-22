@@ -41,10 +41,10 @@
         <b><%= link_to User.find(post.target_user.to_i).username, wall_path(post.target_user.to_i) %></b>
       <%end%>
       <p><%= post.created_at.strftime("%b %e %Y %H:%M")%></p>
+      <%= button_to "👍 Like", 'likes/create', method: "post", params: { user_id: post.id },class: "btn btn-primary"%>
       <% if (post.created_at - 10.minutes.ago) > 0 %>
         <%= button_to "Edit", edit_post_path(post), method: "get", class: "btn btn-primary"%>
       <%end%>
-
       <%= button_to "Remove", post_path(post), method: "delete", data: { confirm: "Are you sure?"}, class: "btn btn-primary" %>
 
     </div>

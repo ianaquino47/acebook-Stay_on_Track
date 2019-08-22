@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  get 'likes/create'
+
+  get 'likes/destroy'
+
   get 'walls/index'
 
   get 'walls/show'
