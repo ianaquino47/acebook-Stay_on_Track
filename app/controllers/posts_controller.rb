@@ -49,7 +49,7 @@ class PostsController < ApplicationController
     if @user.id == @post.user_id
         @post.destroy
     else
-      flash[:notice] = "This is not your post!"
+      flash[:danger] = "This is not your post!"
     end
     redirect_to posts_url
  end
