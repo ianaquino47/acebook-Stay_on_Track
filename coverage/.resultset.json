@@ -1,66 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/controllers/posts_controller_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/controllers/comments_controller_spec.rb": [
+        1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/controllers/sessions_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/rails_helper.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -121,14 +69,14 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/environment.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/application.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/application.rb": [
         1,
         null,
         1,
@@ -145,15 +93,16 @@
         null,
         null,
         null,
+        1,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/boot.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/environments/test.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/environments/test.rb": [
         1,
         null,
         null,
@@ -197,7 +146,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/application_controller_renderer.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -205,7 +154,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/assets.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -221,7 +170,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/backtrace_silencers.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -230,20 +179,20 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/cookies_serializer.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/inflections.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -261,13 +210,13 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/mime_types.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/initializers/wrap_parameters.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -283,7 +232,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/config/routes.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/config/routes.rb": [
         null,
         null,
         1,
@@ -322,17 +271,27 @@
         null,
         null,
         1,
+        1,
+        null,
+        null,
         null,
         1,
         1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/helpers/application_helper.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/helpers/comments_helper.rb": [
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/helpers/sessions_helper.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/helpers/sessions_helper.rb": [
         1,
         null,
         null,
@@ -357,22 +316,106 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/helpers/users_helper.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/helpers/users_helper.rb": [
         1,
         null,
         null,
         1,
-        7,
-        7,
-        7,
+        6,
+        6,
+        6,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/helpers/walls_helper.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/helpers/walls_helper.rb": [
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/controllers/sessions_controller.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/controllers/comments_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/controllers/posts_controller_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/controllers/sessions_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/controllers/sessions_controller.rb": [
         1,
         1,
         null,
@@ -391,25 +434,12 @@
         null,
         null,
         1,
-        null,
         0,
         0,
         null,
-        null,
-        null,
-        null,
-        null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/controllers/users_controller_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/controllers/users_controller_spec.rb": [
         null,
         null,
         null,
@@ -542,29 +572,24 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/controllers/walls_controller_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/controllers/walls_controller_spec.rb": [
         1,
         null,
         1,
         null,
-        1,
-        1,
-        1,
-        1,
         null,
         null,
         null,
-        1,
-        1,
-        1,
-        1,
         null,
         null,
         null,
-        1,
-        1,
-        1,
-        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -596,35 +621,64 @@
         null,
         null,
         null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/controllers/walls_controller.rb": [
+        1,
         1,
         1,
         1,
         null,
         null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/features/homepage_welcomes_current_user_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/controllers/walls_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/features/homepage_welcomes_current_user_spec.rb": [
         1,
         1,
         1,
@@ -632,7 +686,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/features/user_can_delete_posts_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/features/user_can_delete_posts_spec.rb": [
         1,
         1,
         null,
@@ -645,7 +699,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/helpers/users_helper_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/helpers/users_helper_spec.rb": [
         1,
         null,
         1,
@@ -673,7 +727,7 @@
         3,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/features/user_can_log_in_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/features/user_can_log_in_spec.rb": [
         1,
         1,
         null,
@@ -688,53 +742,11 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/features/user_can_sign_up_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/features/user_can_sign_up_spec.rb": [
         null,
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/features/user_can_submit_posts_spec.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/features/users_can_open_a_post_on_another_page_spec.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/helpers/sessions_helper_spec.rb": [
-        1,
         null,
         null,
         null,
@@ -750,7 +762,32 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/helpers/walls_helper_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/features/user_can_submit_posts_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/features/users_can_open_a_post_on_another_page_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/helpers/comments_helper_spec.rb": [
         1,
         null,
         null,
@@ -767,24 +804,73 @@
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/models/post_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/helpers/sessions_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/helpers/walls_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/models/comment_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/models/comment.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/models/post_spec.rb": [
         1,
         null,
         1,
         2,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/models/post.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/models/post.rb": [
         1,
-        1,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/models/user_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/models/user_spec.rb": [
         null,
         null,
         null,
@@ -803,7 +889,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/requests/users_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/requests/users_spec.rb": [
         1,
         null,
         1,
@@ -815,7 +901,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/routing/users_routing_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/routing/users_routing_spec.rb": [
         1,
         null,
         1,
@@ -856,7 +942,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/controllers/users_controller.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -867,7 +953,7 @@
         null,
         null,
         1,
-        6,
+        5,
         0,
         null,
         null,
@@ -882,6 +968,7 @@
         1,
         5,
         null,
+        5,
         5,
         5,
         5,
@@ -900,6 +987,7 @@
         0,
         0,
         0,
+        0,
         null,
         0,
         0,
@@ -912,13 +1000,18 @@
         0,
         0,
         0,
+        0,
         null,
         null,
         null,
         1,
         null,
-        1,
         6,
+        null,
+        5,
+        null,
+        0,
+        null,
         null,
         null,
         1,
@@ -927,85 +1020,23 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/sessions/new.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/sessions/new.html.erb_spec.rb": [
         1,
         null,
         null,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/users/delete.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/users/delete.html.erb_spec.rb": [
         null,
         null,
         null,
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/users/edit.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/users/edit.html.erb_spec.rb": [
         1,
         null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/users/index.html.erb_spec.rb": [
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/users/new.html.erb_spec.rb": [
-        1,
         null,
         1,
         1,
@@ -1034,7 +1065,69 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/users/show.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/users/index.html.erb_spec.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/users/new.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/users/show.html.erb_spec.rb": [
         1,
         null,
         null,
@@ -1058,56 +1151,56 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/create.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/create.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/destroy.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/destroy.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/edit.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/edit.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/index.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/index.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/new.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/new.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/show.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/show.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/spec/views/walls/update.html.erb_spec.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/spec/views/walls/update.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/models/user.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/models/user.rb": [
         null,
         null,
         1,
@@ -1133,7 +1226,7 @@
         null,
         null
       ],
-      "/Users/kajapolkowska/Desktop/Makers_Course/acebook-Stay_on_Track/app/controllers/posts_controller.rb": [
+      "/Users/iaquino47/Projects/Weekly Challenges/acebook-Stay_on_Track/app/controllers/posts_controller.rb": [
         null,
         null,
         1,
@@ -1142,7 +1235,14 @@
         3,
         null,
         null,
+        null,
         1,
+        3,
+        null,
+        3,
+        3,
+        3,
+        null,
         3,
         3,
         3,
@@ -1150,10 +1250,13 @@
         null,
         1,
         7,
+        7,
+        0,
+        null,
         null,
         null,
         1,
-        1,
+        null,
         null,
         null,
         1,
@@ -1186,12 +1289,16 @@
         3,
         null,
         null,
-        1,
+        3,
+        null,
         2,
+        null,
+        0,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1566230222
+    "timestamp": 1566480063
   }
 }

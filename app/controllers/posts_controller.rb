@@ -9,12 +9,19 @@ class PostsController < ApplicationController
 
   def create
     @user = User.find(session[:user_id])
-     @post = @user.posts.create(post_params)
 
-     @post.update(target_user: session[:target_user])
-    
+    @post = @user.posts.create(post_params)
+   
+    if session[:target_user]
+      @post.update(target_user: session[:target_user])
+      redirect_to wall_path(session[:target_user].to_i)
+    elsif !session[:target_user] && session[:last_wall].to_i == session[:user_id]
 
-    redirect_to posts_url
+      redirect_to wall_path(session[:user_id])
+    else
+      redirect_to '/'
+    end
+
   end
 
   def index
@@ -48,7 +55,7 @@ class PostsController < ApplicationController
     if @user.id == @post.user_id
         @post.destroy
     else
-      flash[:notice] = "This is not your post!"
+      flash[:danger] = "This is not your post!"
     end
     redirect_to posts_url
  end
