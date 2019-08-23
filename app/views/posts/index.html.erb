@@ -30,16 +30,23 @@
 <% end %>
 </div>
 
-<div class="center top post-stories">
+<body>
+
+
+
+<div class="card center top post-stories">
 <% @posts.reverse.each do |post| %>
-  <div class="row center posts-row">
+  <div class="card center posts-row message-box">
+    <div class="card-body">
+    <h2 class="card-text">
     <h1><%= link_to simple_format(post.message), post_path(post) %></h1>
-    <div class="posts-div">
+    <div class="card posts-div">
       <b><%= link_to User.find(post.user_id).username, wall_path(post.user_id) %></b>
       <%if post.target_user%>
         <%= "➤"  %>
         <b><%= link_to User.find(post.target_user.to_i).username, wall_path(post.target_user.to_i) %></b>
       <%end%>
+
       <p><%= post.created_at.strftime("%b %e %Y %H:%M")%></p>
       <%="There are #{post.likes.count}likers"%>
       <%if post.likes.find{ |like| like.user_id == current_user.id}%>
@@ -55,3 +62,7 @@
   </div>
 <% end %>
 </div>
+  </div>
+
+
+</body>

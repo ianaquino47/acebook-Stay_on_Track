@@ -9,10 +9,9 @@ class PostsController < ApplicationController
 
   def create
     @user = User.find(session[:user_id])
+
     @post = @user.posts.create(post_params)
-    p "YOO!!!!!!!!!"
-    p session[:target_user]
-    p session[:last_wall]
+   
     if session[:target_user]
       @post.update(target_user: session[:target_user])
       redirect_to wall_path(session[:target_user].to_i)
@@ -22,6 +21,7 @@ class PostsController < ApplicationController
     else
       redirect_to '/'
     end
+
   end
 
   def index
@@ -32,7 +32,7 @@ class PostsController < ApplicationController
    end
 
   def show
-
+    @posts =Post.all
   end
 
   def edit
@@ -46,6 +46,7 @@ class PostsController < ApplicationController
   def update
     @user = User.find(session[:user_id])
     @post.update(post_params) if @user.id == @post.user_id
+    @post.image.attach(params[:message][:image])
     redirect_to posts_url
   end
 
@@ -62,7 +63,11 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:message, @target_user)
+
+    params.require(:post).permit(:message, :image)
+
+    #params.require(:post).permit(:message, @target_user)
+
   end
 
   def current_post

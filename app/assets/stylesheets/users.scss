@@ -9,8 +9,14 @@
   border: 3px solid green;
   padding: 10px;
   display: table-caption;
+  text-align: center;
 }
 
 .col-md-6 {
   display: inline-grid;
+}
+
+.user-picture {
+  display: inline-grid;
+  text-align: center;
 }
