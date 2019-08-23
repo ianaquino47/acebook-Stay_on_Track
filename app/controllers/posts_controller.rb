@@ -11,7 +11,7 @@ class PostsController < ApplicationController
     @user = User.find(session[:user_id])
 
     @post = @user.posts.create(post_params)
-   
+
     if session[:target_user]
       @post.update(target_user: session[:target_user])
       redirect_to wall_path(session[:target_user].to_i)
@@ -32,6 +32,7 @@ class PostsController < ApplicationController
    end
 
   def show
+    @user = User.find(session[:user_id])
     @posts =Post.all
   end
 
