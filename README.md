@@ -31,7 +31,7 @@ TheGang :boom:
 StandUp session with Capitan Freddie :sunglasses:
 <img width="600" alt="Screenshot 2019-08-21 at 12 05 02" src="https://user-images.githubusercontent.com/42152431/63427921-30462380-c40e-11e9-8968-1a3fc94d8705.png">
 
-The boyZzzz :clock9:
+Waiting for the boyZzzz :clock9:
 <img width="598" alt="Screenshot 2019-08-21 at 12 05 43" src="https://user-images.githubusercontent.com/42152431/63427922-30462380-c40e-11e9-8588-925fbe5a0913.png">
 
 Getting there :thumbsup::thumbsdown::thumbsup::thumbsdown::thumbsup:
