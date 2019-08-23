@@ -1,9 +1,11 @@
-<div class="profile row">
-  <div class="col-md-4 avatar">
-    <!-- LEFT: AVATAR HERE -->
+<div class="col center">
+ <div class="col-xs-21 col-md-15">
+   <div class="thumbnail rounded">
+    <%= image_tag(@user.avatar) %>
+    Username:  <%= @user.username %><br>
+    Email:  <%= @user.email %><br>
+    </div><br>
   </div>
-  <div class="col-md-8 basic-info">
-    <!-- RIGHT: USER INFORMATION HERE -->
   </div>
 </div>
 
