@@ -51,11 +51,11 @@ To start the server (http://localhost:3000/)
 ### StandUps :mega:
 - 10:30 - StandUp session
 - 14:30 - StandUp session
-  - "1 out of 10" or "Weather" check-up. 
+  - "1 out of 10" or "Weather" check-in. 
   - "What did you work on?"
   - "What are you going to work on?"
   - "Anything you want to share?"
-  -- Update [Trello](https://trello.com/b/RWacFYZu/acebook)
+  - Update [Trello](https://trello.com/b/RWacFYZu/acebook)
 
 ### Retro :clipboard:
  - Talk about what went well.
