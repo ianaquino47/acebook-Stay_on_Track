@@ -44,6 +44,6 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
 
-  get "*any", via: :all, to: "errors#not_found"
+#  get "*any", via: :all, to: "errors#not_found"
 
 end
