@@ -26,22 +26,22 @@ To start the server (http://localhost:3000/)
 ## Teamwork :clap::wave:
 ### Planning Sessions :chart_with_upwards_trend:
 TheGang :boom:
-<img width="1400" alt="Screenshot 2019-08-23 at 11 27 01" src="https://user-images.githubusercontent.com/42152431/63586314-f5bcc200-c598-11e9-8084-5f1ae079b3d3.png">
+<img width="1000" alt="Screenshot 2019-08-23 at 11 27 01" src="https://user-images.githubusercontent.com/42152431/63586314-f5bcc200-c598-11e9-8084-5f1ae079b3d3.png">
 
 StandUp session with Capitan Freddie :sunglasses:
-<img width="600" alt="Screenshot 2019-08-21 at 12 05 02" src="https://user-images.githubusercontent.com/42152431/63427921-30462380-c40e-11e9-8968-1a3fc94d8705.png">
+<img width="1000" alt="Screenshot 2019-08-21 at 12 05 02" src="https://user-images.githubusercontent.com/42152431/63427921-30462380-c40e-11e9-8968-1a3fc94d8705.png">
 
 Waiting for the boyZzzz :clock9:
-<img width="598" alt="Screenshot 2019-08-21 at 12 05 43" src="https://user-images.githubusercontent.com/42152431/63427922-30462380-c40e-11e9-8588-925fbe5a0913.png">
+<img width="1000" alt="Screenshot 2019-08-21 at 12 05 43" src="https://user-images.githubusercontent.com/42152431/63427922-30462380-c40e-11e9-8588-925fbe5a0913.png">
 
 Getting there :thumbsup::thumbsdown::thumbsup::thumbsdown::thumbsup:
-<img width="594" alt="Screenshot 2019-08-21 at 12 18 46" src="https://user-images.githubusercontent.com/42152431/63427923-30462380-c40e-11e9-8ade-68ca1fc4a361.png">
+<img width="1000" alt="Screenshot 2019-08-21 at 12 18 46" src="https://user-images.githubusercontent.com/42152431/63427923-30462380-c40e-11e9-8ade-68ca1fc4a361.png">
 
 Capitan ~~Marvel~~ Marvin takes the stage :tada:
-<img width="478" alt="Screenshot 2019-08-21 at 12 19 08" src="https://user-images.githubusercontent.com/42152431/63427924-30462380-c40e-11e9-8274-b4db18bfa3af.png">
+<img width="1000" alt="Screenshot 2019-08-21 at 12 19 08" src="https://user-images.githubusercontent.com/42152431/63427924-30462380-c40e-11e9-8274-b4db18bfa3af.png">
 
 Dream team :heart_eyes::heart_eyes::heart_eyes:
-<img width="477" alt="Screenshot 2019-08-21 at 12 19 27" src="https://user-images.githubusercontent.com/42152431/63427925-30462380-c40e-11e9-992a-dea5d6bc9740.png">
+<img width="1000" alt="Screenshot 2019-08-21 at 12 19 27" src="https://user-images.githubusercontent.com/42152431/63427925-30462380-c40e-11e9-992a-dea5d6bc9740.png">
 
 #### Brainstorming 🧠
 <img width="590" alt="blockers" src="https://user-images.githubusercontent.com/42152431/63437423-6f7e6f80-c422-11e9-9cf7-e2896fdca78b.png">
