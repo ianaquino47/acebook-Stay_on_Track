@@ -1,8 +1,12 @@
 
 <div class="card center top message-card">
+
+  <h1>Post a new message</h1>
+
 <%= form_with model: @post, local: true do |form| %>
-<%= form.text_area :message, placeholder: "Message" %><br><br>
+<%= form.text_area :message, placeholder: "Message", id: "text-area" %><br><br>
+<h4 class="btn-login">Add an image </h4>
 <%= form.file_field :image %><br>
-<%= form.submit "Submit" %>
+<%= form.submit "Submit", class: "btn btn-area"%>
 <% end %>
 </div>

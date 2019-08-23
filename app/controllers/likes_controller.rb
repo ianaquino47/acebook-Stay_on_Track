@@ -7,7 +7,12 @@ class LikesController < ApplicationController
     else
       @post.likes.create(user_id: current_user.id)
     end
+
+    if session[:login] == 1
+      redirect_to wall_path(session[:user_id])
+    else
     redirect_to '/'
+    end
   end
 
 
