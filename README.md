@@ -40,9 +40,20 @@ To start the server (http://localhost:3000/)
 ### StandUps :mega:
 - 10:30 - StandUp session
 - 14:30 - StandUp session
+  - "1 out of 10" or "Weather" check-up. 
+  - "What did you work on?"
+  - "What are you going to work on?"
+  - "Anything you want to share?"
+  -- Update [Trello](https://trello.com/b/RWacFYZu/acebook)
 
 ### Retro :clipboard:
+ - Talk about what went well.
+ - Talk about what did not go so well, blockers, issues.
+   - How did/can we solve the issue?
+   - How can we improve?
+   
 ## Instagram :camera:
 https://www.instagram.com/stayontrack11/
+
 ## Trello :round_pushpin:
 https://trello.com/b/RWacFYZu/acebook
