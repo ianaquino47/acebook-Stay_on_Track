@@ -14,3 +14,5 @@
 //= require bootstrap-sprockets
 //= require rails-ujs
 //= require_tree .
+
+//made by vipul mirajkar thevipulm.appspot.com
