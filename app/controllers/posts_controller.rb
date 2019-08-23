@@ -16,7 +16,6 @@ class PostsController < ApplicationController
       @post.update(target_user: session[:target_user])
       redirect_to wall_path(session[:target_user].to_i)
     elsif !session[:target_user] && session[:last_wall].to_i == session[:user_id]
-
       redirect_to wall_path(session[:user_id])
     else
       redirect_to '/'
@@ -47,7 +46,7 @@ class PostsController < ApplicationController
   def update
     @user = User.find(session[:user_id])
     @post.update(post_params) if @user.id == @post.user_id
-    @post.image.attach(params[:message][:image])
+    # @post.image.attach(params[:message][:image])
     redirect_to posts_url
   end
 

@@ -57,6 +57,7 @@ ActiveRecord::Schema.define(version: 2019_08_22_202757) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "target_user"
+    t.text "likes", default: [], array: true
   end
 
   create_table "users", force: :cascade do |t|
