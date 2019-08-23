@@ -22,7 +22,7 @@ To start the server (http://localhost:3000/)
 ```bash
 > rails s
 ```
-## Functionality of the website
+
 ## Teamwork :clap::wave:
 ### Planning Sessions :chart_with_upwards_trend:
 <img width="592" alt="Day 1" src="https://user-images.githubusercontent.com/42152431/63427920-2fad8d00-c40e-11e9-9da0-baf523ceee41.png">
