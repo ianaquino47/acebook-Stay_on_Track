@@ -1,3 +1,4 @@
+<% session[:login] = 1 %>
 <div class="profile row">
   <div class="col-md-4 avatar">
     <!-- LEFT: AVATAR HERE -->
@@ -47,6 +48,21 @@
       <div class="posts-div">
         <b><%= link_to User.find(post.user_id).username, wall_path(post.user_id)%></b>
         <p><%= post.created_at.strftime("%b %e %Y %H:%M")%></p>
+        <% if post.likes.count > 0 %>
+          <% if post.likes.count == 1 %>
+            <p><%="#{post.likes.count} like"%></p>
+          <% else %>
+          <p><%="#{post.likes.count} likes"%></p>
+          <% end %>
+
+        <% else %>
+
+        <% end %>
+        <%if post.likes.find{ |like| like.user_id == current_user.id}%>
+          <%= button_to "👎🏽 Unlike", post_likes_path(post), method: "post", class: "btn btn-primary"%>
+        <%else%>
+          <%= button_to "👍 Like", post_likes_path(post), method: "post", class: "btn btn-primary"%>
+        <%end%>
         <% if (post.created_at - 10.minutes.ago) > 0 %>
           <%= button_to "Edit", edit_post_path(post), method: "get", class: "btn btn-primary"%>
         <%end%>

@@ -1,3 +1,4 @@
+<% session[:login] = 0 %>
 
 
 <div class="user-tabs">
@@ -48,9 +49,18 @@
       <%end%>
 
       <p><%= post.created_at.strftime("%b %e %Y %H:%M")%></p>
-      <%="There are #{post.likes.count}likers"%>
+      <% if post.likes.count > 0 %>
+        <% if post.likes.count == 1 %>
+          <p><%="#{post.likes.count} like"%></p>
+        <% else %>
+        <p><%="#{post.likes.count} likes"%></p>
+        <% end %>
+
+      <% else %>
+
+      <% end %>
       <%if post.likes.find{ |like| like.user_id == current_user.id}%>
-        <%= button_to "👎🏽 UnLike", post_likes_path(post), method: "post", class: "btn btn-primary"%>
+        <%= button_to "👎🏽 Unlike", post_likes_path(post), method: "post", class: "btn btn-primary"%>
       <%else%>
         <%= button_to "👍 Like", post_likes_path(post), method: "post", class: "btn btn-primary"%>
       <%end%>
