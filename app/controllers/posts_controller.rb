@@ -9,13 +9,11 @@ class PostsController < ApplicationController
 
   def create
     @user = User.find(session[:user_id])
-    # @target_user
-    p "HERERERERERERERERERRERERRERE"
-    p session[:target_user]
-    p @post = @user.posts.create(post_params)
+     @post = @user.posts.create(post_params)
 
-    p @post.update(target_user: session[:target_user])
-    p @post
+     @post.update(target_user: session[:target_user])
+    
+
     redirect_to posts_url
   end
 
@@ -27,7 +25,7 @@ class PostsController < ApplicationController
    end
 
   def show
-
+    @posts =Post.all
   end
 
   def edit
@@ -41,6 +39,7 @@ class PostsController < ApplicationController
   def update
     @user = User.find(session[:user_id])
     @post.update(post_params) if @user.id == @post.user_id
+    @post.image.attach(params[:message][:image])
     redirect_to posts_url
   end
 
@@ -57,7 +56,11 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:message, @target_user)
+
+    params.require(:post).permit(:message, :image)
+
+    #params.require(:post).permit(:message, @target_user)
+
   end
 
   def current_post
