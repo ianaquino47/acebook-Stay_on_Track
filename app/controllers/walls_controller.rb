@@ -4,7 +4,10 @@ class WallsController < ApplicationController
 
 
   def show
-    @user = User.find(params[:id])
+    session[:last_wall] = params[:id]
+    if params[:id]
+      @user = User.find(params[:id])
+    end
     @posts = Post.all
     if !session[:user_id]
       redirect_to '/login'
@@ -12,9 +15,9 @@ class WallsController < ApplicationController
   end
 
 
-    def create
+  def create
 
-    end
+  end
 
 
   def index

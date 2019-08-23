@@ -2,6 +2,7 @@
 
 class User < ApplicationRecord
   has_many :posts, dependent: :destroy
+  has_many :likes, dependent: :destroy
   validates :name, :username, :email, :password, presence: true
   validates :password, length: { in: 8..20 }
   validates :email, uniqueness: true

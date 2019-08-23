@@ -25,6 +25,7 @@
     <%= link_to new_post_path, id:'New-post', class: "btn  btn-info btn-lg btn-block" do %>
     New post
     <% session[:target_user] = nil %>
+    <% session[:last_wall] = nil %>
   <%end%>
 <% end %>
 </div>
@@ -35,30 +36,33 @@
 
 <div class="card center top post-stories">
 <% @posts.reverse.each do |post| %>
-
   <div class="card center posts-row message-box">
     <div class="card-body">
     <h2 class="card-text">
-      <%= link_to simple_format(post.message), post_path(post) %></h2>
-  </div>
+    <h1><%= link_to simple_format(post.message), post_path(post) %></h1>
     <div class="card posts-div">
-      < "CHECK THIS OUT" >
-      <b><%= link_to User.find(post.user_id).username, wall_path(post.user_id)%>
+      <b><%= link_to User.find(post.user_id).username, wall_path(post.user_id) %></b>
+      <%if post.target_user%>
+        <%= "➤"  %>
+        <b><%= link_to User.find(post.target_user.to_i).username, wall_path(post.target_user.to_i) %></b>
+      <%end%>
 
-      </b>
       <p><%= post.created_at.strftime("%b %e %Y %H:%M")%></p>
+      <%="There are #{post.likes.count}likers"%>
+      <%if post.likes.find{ |like| like.user_id == current_user.id}%>
+        <%= button_to "👎🏽 UnLike", post_likes_path(post), method: "post", class: "btn btn-primary"%>
+      <%else%>
+        <%= button_to "👍 Like", post_likes_path(post), method: "post", class: "btn btn-primary"%>
+      <%end%>
       <% if (post.created_at - 10.minutes.ago) > 0 %>
         <%= button_to "Edit", edit_post_path(post), method: "get", class: "btn btn-primary"%>
       <%end%>
-
       <%= button_to "Remove", post_path(post), method: "delete", data: { confirm: "Are you sure?"}, class: "btn btn-primary" %>
-
     </div>
-
   </div>
 <% end %>
 </div>
-
+  </div>
 
 
 </body>
